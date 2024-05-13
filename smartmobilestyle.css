@@ -1,0 +1,308 @@
+.inter-basefont {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+h2 {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.name {
+    font-size:30px;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 20px;
+}
+hr {
+    color: #8a8a8a;
+}
+body {
+    font-family: Inter;
+    margin: 0%;
+    padding: 0%;
+}
+/* HEADER - MENU DE ARRIBA */
+header {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    box-shadow: 0 2px 15px 0px #b2b2b2;
+}
+.logo {
+    display: flex;
+    align-items: center; 
+    float: left;
+    padding-left: 20px;
+}
+
+.logo img {
+    width: 32px; 
+    height: auto; 
+    padding-right: 20px;
+}
+
+.menu  {
+    display: none;
+}
+.burgericon {
+    height: 50%;
+    padding: none;
+    margin: none;
+    margin-right: 20px;
+}
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #1a73e8;
+    margin: 5px;
+}
+.mobileheader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.active {
+    color: #1A73E8;
+    font-weight: bold;
+}
+.hoverwatch:hover {
+    color: black;
+    font-weight: bold;
+}
+.hoverwatch:visited {
+    color: #58626B;
+    text-decoration: none;
+}
+.hoverwatch {
+    text-decoration: none;
+}
+.header-icons {
+    padding-right: 30px;
+}
+
+.header-icons img {
+    width: 19px; 
+    height: auto;
+    margin-left: 10px;
+} 
+
+.seeproductdetail {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 85%;
+    margin-left: 30px;
+    margin-top: -10px;
+    padding-bottom: 3px;
+}
+.arrow {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.prodtxt {
+    margin-left: 5px;
+}
+
+/* MAIN- Centro */
+main{
+    display: grid;
+    width: auto;
+    position: relative;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: -5px;
+}
+
+figure{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #F8F9FA;
+    height: 265px;
+    width: 95%;
+    margin: auto;
+    margin-top: none;
+    padding: auto;
+
+}
+
+figure img{
+    height: 70%;
+    justify-content: center;
+    align-self: center;
+}
+
+.descripcionproducto {
+    width: auto;
+    margin-right:0%;
+}
+
+.productname {
+    margin-bottom: 30px;
+}
+
+.letrap {
+    font-size: 12px;
+    font-weight: regular;
+    color: #58626B;
+    align-items: center;
+}
+
+.separator_line1 {
+    margin: 0%;
+}
+
+.container2{
+    width: auto;
+    display: grid;
+}
+
+.choosecolor{
+    display: block;  
+    width: auto;
+    margin-bottom: 20px;
+}
+
+/* CAJAS PEQUES */
+
+.watches-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    width: auto;
+    margin: 0%;
+} 
+
+.watch-card{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: none;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.watches-container img{
+    width: 60px;
+    height: auto; 
+    text-align: center;
+}
+
+.cartcontainer{
+    background-color: #F8F9FA;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: -5px;
+    padding-top: 30px;
+    padding-left: none;
+    padding-bottom: 20px;
+}
+
+.cantidadycart {
+    display: grid;
+    padding-bottom: none;
+    padding-right: 20px;
+}
+
+select{
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    border: 1px solid rgb(107, 107, 107);
+    background-color: #F8F9FA;
+}
+
+.azulpitufo{
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+    height: 50px;
+    width: 280px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.deliver {
+    font-size: 12px;
+    font-weight: bold;
+    color: #58626B;
+}
+
+.deliverysection {
+    margin-top: 5px;
+    padding-top: -30px;
+    padding-bottom: none; 
+    margin-bottom: none;
+}
+
+.letraazulpitufo{
+    color:  #1a73e8;
+}
+
+/*FOOTER*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 92%;
+    font-size: 8px;
+    color: #58626B;
+    background-color: #F8F9FA;
+    padding: 15px;
+    display: block;
+    height: 110px;
+}
+
+.footericons { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+    
+.footericons img {
+    width: 30px; 
+    height: 30px; 
+}
+    
+.footertexts{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    color: #58626B;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 15px;
+    text-align: center;
+}
+    
+.spain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 5;
+}
+    
+.spain img {
+    margin-left: 10px; 
+    order: 2; 
+}
