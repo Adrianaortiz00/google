@@ -137,6 +137,7 @@ figure img{
     height: 80%;
     justify-content: center;
     align-self: center;
+    Filter: drop-shadow(-10px 10px 20px grey)
 }
 
 .descripcionproducto {
